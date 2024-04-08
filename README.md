@@ -9,4 +9,7 @@
 - UDP is a connectionless protocol, used for datagram-oriented connections such as streaming video, audio, and online gaming.
 - UDP is faster than TCP because it has no error-checking and requires less processing.
 - Unlike TCP, UDP doesn't guarantee the packets will get to the right destinations. It allows for packets to be dropped and received in a different order than they were sent.
-- UDP is like sending a parcel through the mail, you don't know if it will get there. In Java, DatagramSocket acts as a mailman, and DatagramPacket acts as a parcel.
+- UDP is like sending a parcel through the mail, you don't know if it will get there. In Java, DatagramSocket acts as a postman, and DatagramPacket acts as a parcel.
+
+### About this Repository
+- This project is a basic console-based chat application that adopts TCP and UDP protocols separately, allowing users to chat with each other.
